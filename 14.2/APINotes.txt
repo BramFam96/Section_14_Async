@@ -1,0 +1,28 @@
+Application Program Interfaces (APIs) are what programs use to talk to eachother;
+
+The data in these APIs are far condensed than say, the data we typically interact with when
+visiting a site. That is say, they do not respond with HTML like a client-server response might;
+
+Instead they respond with XML or JSON (JSON is the one we want to use)
+XML - formatted data like HTML but the tags are the keys in our object:
+<person> 
+<name>Matt</name> 
+<favColor>Gold</favColor>
+</person>
+JSON - looks like JS objects with a few key distinctions;
+{ 
+    "person": {
+        "name":"Matt",
+        "favColor":"Gold",
+        "favNum":7,
+        "hobby":["coding","cooking"]
+    }
+};
+-> keys must use double quotes;
+Rather than deal with nuanced differences between JSON and JS objects,
+we can easily convert them into eachother;
+
+If you do need to read through JSON we have a resource for make it palletable:
+**Resource: chrome jsonview extension;
+
+
