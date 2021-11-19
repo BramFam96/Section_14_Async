@@ -1,0 +1,40 @@
+Part One: Solidify Terminology
+
+1)
+HTTP is the standard that clients and servers use to communicate with eachother.
+2)
+A URL is a namespace that is used to reference a specific address on a network;
+3)
+DNS is the service that takes a URL namespace and translates it into an IP address.
+4)
+A query string is what we pass to our GET methods in order to specify the response we are looking
+for from a server;
+5)
+GET - a common method used to specify and retrieve data from a server;
+POST - a common method used to specify and store data in a server;
+6)
+An HTTP request is what we send in a GET method; it is what specifies the information
+we are looking to get back from the server;
+7) 
+An HTTP response is the data we receive from the request we specified;
+8)
+An HTTP header contains pertinent information which varies between requests and responses;
+Request headers contain params that pertain to the client requesting data; 
+This includes Host, User-Agent, Accept, Cookie etc;
+Response headers contain pertinent information relating to the server and data itself;
+This includes Content-type, Last-Modified, Set-Cookie
+9)
+When we type a URL in the browser, DNS translates this URL into an IP address;
+Our browser then sends a request to this IP address;
+The server at the IP address responds to our request;
+The browser builds the DOM in the order the data is received;
+New HTTP requests are made for each external resource; 
+The steps above repeat until all data is loaded;
+
+Part Two: Practice Tools
+
+1)
+curl https://icanhazdadjoke.com/search?term=pirate
+2) dig icanhazdadjoke.com -> 104.21.37.176 && 172.67.211.64;
+3) I use liveserver..
+
