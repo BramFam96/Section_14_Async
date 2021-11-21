@@ -1,0 +1,6 @@
+Axios is a third party library that allows us to easily make http requests. 
+It still requires us to understand how get and post requests work, but can
+simplify our code significantly;
+
+The syntax for an Axios request is simply axios.get(url);
+

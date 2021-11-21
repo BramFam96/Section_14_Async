@@ -1,0 +1,25 @@
+Ajax is a JS technique for making asynchronous requests;
+This section will focus on 3 goals:
+
+1) Comparing Ajax request to browser requests;
+2) Making JS get and post requests with the help of axios;
+3) Using async/await to manage asynchronicity;
+
+Traditional Requests:
+Happen in browser as a result of entering a url, clicking a link, submitting a form, etc;
+These requests replace the content on our page, causing it to refresh;
+-> JS could not get or set data itself;
+
+Ajax Requests:
+Also send and receive responses, but with Javascript; this allows us to load data in the bground;
+this means we can load and use data to update a page without refreshing it;
+
+Ajax techniques allow us to make use of small response packets that are critical to interactivity, 
+scalability, and general performance; Accessability can be an issue;
+
+Raw ajax can be clunky and confusing so we'll use a tool called Axios to simplify things:
+See Axios Intro ->
+
+
+
+
